@@ -1,0 +1,175 @@
+/* main */
+a, a:visited {text-decoration: underline; color: #d65479; -moz-transition: color 0.3s 0.03s ease; -o-transition: color 0.3s 0.03s ease; -webkit-transition: color 0.3s 0.03s ease; }
+a:hover,  a:visited:hover, a:focus {text-decoration: none; color: #a3006f;}
+
+.cl {clear:both}
+
+
+.mr {margin-right: 0 !important}
+/* main */
+html {min-width: 1200px}
+body {background: url('img/bg.jpg') no-repeat top center #ffffff; min-width: 1200px; -webkit-text-size-adjust: 100%;}
+html, body, div, table, tr, td, li, ul {margin: 0; padding: 0; border: 0; font: inherit; color: #333333; font-size: 16px; font-weight: 400; font-family: 'Fira Sans', sans-serif; vertical-align: top; line-height: 150%}
+img {border: 0}
+h1{font-family: 'Fira Sans', sans-serif; color: #d65479; font-size: 34px; font-weight: 700; margin: 0 auto; text-align: center; max-width: 720px; line-height: 100%; display: block;}
+h2{font-family: 'Fira Sans', sans-serif; color: #4e3950; font-size: 28px; font-weight: 700; font-style: italic;  margin: 10px 0 10px 0; line-height: 110%; display: inline-block;}
+h3{font-family: 'Fira Sans', sans-serif; color: #000000; font-size: 28px; font-weight: 600; margin: 0px 0 30px -25px; line-height: 120%; display: block; padding: 14px 0 14px 25px; background: url('img/line.png') repeat-y; border-radius: 10px}
+h4{font-family: 'Fira Sans', sans-serif; color: #000000; font-size: 18px; font-weight: 600; margin: 0px 0 20px 0; line-height: 120%; display: block; padding: 14px 22px 14px 24px; background: url('img/line.png') repeat-y; border-radius: 10px; text-align: left;}
+h5{font-family: 'Fira Sans', sans-serif; color: #ffffff; font-size: 24px; font-weight: 600; margin: 0px 0 0px 0; line-height: 110%; display: block;}
+h6{font-family: 'Fira Sans', sans-serif; color: #d65479; font-size: 28px; font-weight: 700; font-style: italic; margin: 0px 0 0px 0; line-height: 110%; display: block;}
+.wrap {width: 100%; min-width: 1100px; height: auto; position: relative}
+.wr {max-width: 1100px; padding-left: 50px; padding-right: 50px; margin: auto; position: relative}
+
+strong {color: #000000; font-weight: 600}
+
+/* topmenu */
+.topmenuwrap {position: fixed; height: 68px; top: 0; width: 100%; z-index: 1000;}
+.topmenu {width: 1058px; height: 68px; margin: auto; display: block; background: url('img/menubg.png') no-repeat}
+.topmenu ul {padding-top: 22px; text-align: center;}
+.topmenu li {display: inline-block; margin-right: 30px; font-weight: 500; font-size: 16px}
+.topmenu a {text-decoration: none; color: #4f70b8}
+.topmenu a:hover {text-decoration: none; color: #d65479}
+
+/* ekran */
+.ekran {padding-top: 150px; height: 600px;}
+.soc {width: 31px; height: 30px; display: inline-block; margin-right: 2px; margin-top: 5px;}
+.soc:hover {background-position: 0 -30px !important}
+.logo {width: 380px; height: 120px; float: left;}
+.logo img {float: left; margin-right: 23px;}
+
+.cont {float: right; width: 340px; height: 150px;}
+.cont img {float: left; margin-right: 15px;}
+.adress {margin-top: 7px;}
+.phone {color: #d65479; font-weight: 700; font-size: 28px; margin-top: 23px}
+
+.titles {text-align: center; padding-top: 40px}
+.titles p {font-size: 20px; font-weight: 400; margin-top: 27px; line-height: 140%; color: #111111}
+
+.zapbtn {display: inline-block; border-radius: 10px; background: url('img/wh.png'); padding: 17px 20px 12px 16px; margin-top: 20px;}
+.lnk {color: #1166a0 !important; font-size: 17px; text-decoration: none; font-weight: 400}
+.lnk:hover, .lnk:focus {color: #11496f !important; font-size: 17px; text-decoration: none; font-weight: 400}
+.lnk:visited {color: #11496f }
+
+.plusi {background: url('img/wh.png'); height: 237px; text-align: center}
+.plus {margin-right: 80px; width: 200px; text-align: center; display: inline-block; margin-top: 60px;}
+.plus p {line-height: 120%; color: #777777}
+
+/* raboti */
+.raboti {padding-top: 40px; padding-bottom: 50px;}
+.rabzag {background: url('img/raboti.png') no-repeat; width: 577px; height: 57px; text-align: center; margin: auto;}
+.rabzag p {padding-top: 15px; font-size: 30px; font-weight: 700; color: #000000}
+.rabotawrap {min-width: 1000px; padding-top: 20px; padding-left: 20px; padding-right: 20px; text-align: center; margin-top: 30px;}
+.rabota {display: inline-block; width: 350px; margin-bottom: 14px;}
+.rabota img {display: block; width: 350px; height: auto; margin-bottom: 4px; border-radius: 10px;}
+
+/* курсы */
+.kursi {padding-top: 80px; padding-bottom: 10px; background: url('img/bg2.jpg') top center  no-repeat #f1d6d6;}
+.kursizag {background: url('img/kursi.png') no-repeat; width: 690px; height: 57px; text-align: center; margin: auto;}
+.kursizag p {padding-top: 15px; font-size: 30px; font-weight: 700; color: #000000}
+.kurs {padding-top: 70px;}
+.kursleft {width: 249px; float: left;}
+.kursava {border-radius: 10px;}
+.kursright {margin-left: 300px;}
+.kursopis {color: #555555; font-weight: 400; line-height: 140%;}
+.blok {display: inline-block; margin-right: 20px; margin-left: -10px; margin-top: 10px; margin-bottom: 15px; border-radius: 10px; background: url('img/y.jpg') repeat-x; width: 220px; height: 66px; color: #000000; text-align: center; padding-top: 24px; border-right: 2px solid #e0b1a9; border-bottom: 2px solid #e0b1a9;}
+.blok p {margin-top: 0; }
+.blok span {font-weight: 700; font-size: 30px;}
+.soderzhbtn {margin-top: 20px; cursor: pointer}
+.zapisbtn {margin-top: 0px; cursor: pointer}
+.zapisbtn2 {margin-top: 0px; cursor: pointer}
+.kursibot {height: 150px; background: url('img/bg3.jpg') top center no-repeat;}
+
+/* мастера */
+.mastera {padding-top: 30px; padding-bottom: 50px; text-align: center}
+.maszag {background: url('img/mastera.png') no-repeat; width: 435px; height: 57px; text-align: center; margin: auto; margin-bottom: 30px;}
+.maszag p {padding-top: 15px; font-size: 30px; font-weight: 700; color: #000000}
+.master {display: inline-block; text-align: left; width: 47%; margin-top: 40px; margin-right: 3%; margin-bottom: 20px;}
+.masterava {width: 40%; height: auto; float: left;}
+.masterright {margin-left: 46%; font-size: 14px}
+.masterright p {line-height: 140%;}
+.spisnail {margin-top: 12px;}
+.spisnail li {font-size: 14px; list-style-type: none; margin-left: 3px; padding-left: 20px; line-height: 120%; padding-bottom: 14px; background: url('img/n.png') no-repeat}
+
+/* расписание */
+.raspisanie {padding-top: 70px; padding-bottom: 70px; text-align: center; background: url('img/line2.png') no-repeat top center #d65479}
+.raszag {background: url('img/raspisanie.png') no-repeat top center; width: 500px; height: 57px; color: #ffffff; text-align: center; margin: auto; margin-bottom: 10px;}
+.raszag p {padding-top: 15px; font-size: 30px; font-weight: 700; color: #ffffff}
+.rasopis {width: 730px; color: #fff4f4; text-align: center; margin: auto; margin-bottom: 70px; margin-top: 30px}
+.rasptbl {width: 100%; color: #ffffff; margin-top: 50px; vertical-align: middle;}
+.rasptbl th {background: #db597e; color: #ffffff; font-size: 16px; font-weight: 500; padding-top: 22px; padding-bottom: 18px; vertical-align: middle}
+.rasptbl td {border-top: 2px solid #dc6687; color: #ffffff; padding-top: 10px; padding-bottom: 6px; vertical-align: middle; padding-left: 10px; padding-right: 10px; line-height: 120%}
+.thleft {border-radius: 20px 0 0 0;}
+.thright {border-radius: 0 20px 0 0;}
+.col1 {text-align: left; padding-left: 25px !important; font-weight: 500}
+.col5 {text-align: right; padding-left: 30px !important;}
+.raspbot {height: 49px; background: url('img/line23.png') bottom center no-repeat;}
+
+/* отзывы */
+.otzivi {padding-top: 40px; padding-bottom: 60px; text-align: center}
+.otzzag {background: url('img/otzivi.png') no-repeat top center; width: 530px; height: 57px; color: #444444; text-align: center; margin: auto; margin-bottom: 10px;}
+.otzzag p {padding-top: 15px; font-size: 30px; font-weight: 700; color: #000000}
+.otzopis {width: 730px; color: #444444; text-align: center; margin: auto; margin-bottom: 70px; margin-top: 30px}
+.soc2 {min-height: 23px; display: inline-block; padding-left: 32px; padding-top: 7px; margin-right: 30px; line-height: 100%; margin-top: 10px; background-repeat: no-repeat; font-weight: 600;}
+.soc2:hover {background-position: 0 -30px !important}
+.otziv {display: inline-block; margin-right: 2%; width: 31%; margin-bottom: 50px; text-align: left;}
+.userava {float: left; margin-right: 10px; margin-left: 10px;}
+.otzivname {font-size: 18px; font-weight: 600; color: #000000; margin-bottom: 0; margin-top: 0; line-height: 100%;}
+.otzivdate {font-size: 14px; font-style: italic; color: #999999; font-weight: 400; margin-bottom: 5px; margin-top: 6px; line-height: 100%;}
+.otzivtop {background: url('img/bgotziv.png') no-repeat top left; background-position: 180px 0px; height: 22px;}
+.otztext {background: #f6f6f6; height: auto; border-radius: 10px; font-size: 14px; line-height: 150%; font-weight: 400; color: #888888; padding: 25px 30px 30px 30px;}
+.otzkat {font-size: 14px; line-height: 150%; font-weight: 400; color: #888888;}
+.more {color: #d65479; border-bottom: 1px dotted;}
+.more:hover {border-bottom: 0; color: #b03457; cursor: pointer}
+.more2 {display: none; color: #d65479; border-bottom: 1px dotted;}
+.more2:hover {border-bottom: 0; color: #b03457; cursor: pointer}
+.otzbtn {}
+.otzbtn:hover {border-bottom: 0; color: #b03457; cursor: pointer}
+
+
+#map {height: 400px;}
+
+/* записаться */
+.zapis {text-align: center; padding-bottom: 50px;}
+.inpt{display: inline-block; width: 220px; height: 30px; border: 1px solid #dddddd; padding: 5px 15px; font: 14px 'Fira Sans', sans-serif; text-align: left; background-color: #ffffff; margin: 0 0 0 0; }
+textarea {display: inline-block; width: 220px; height: 130px; border: 1px solid #dddddd; padding: 5px 15px; font: 14px 'Fira Sans', sans-serif; text-align: left; background-color: #ffffff; margin: 0 0 0 0; }
+.red {color: #ff0000}
+.submitbtn{display: block; margin: auto; width: 252px; height: 61px; cursor: pointer; padding: 0; border: 0; background: url(img/zapis.png) center; margin-top: 35px}
+.submitbtn2{display: block; margin: auto; width: 252px; height: 61px; cursor: pointer; padding: 0; border: 0; background: url(img/otziv.png) center; margin-top: 35px}
+.slct{display: inline-block; width: 250px; height: 42px; border: 1px solid #dddddd; padding: 5px 15px; font: 18px; text-align: left; background-color: #ffffff; margin: 0 0 0 0; }
+.slct {font-family: 'Fira Sans', sans-serif !important;}
+.form {padding: 30px 50px 40px 50px; background: url('img/bgform.png') repeat-x top; display: inline-block; border-radius: 15px}
+.form label {display: inline-block; margin-right: 20px; font-weight: 500}
+.form p {margin-bottom: 5px;}
+
+/* контакты */
+.footer {padding-top: 40px; padding-bottom: 100px; background: url('img/bg4.jpg');}
+.logobot {width: 380px; height: 120px; float: left; color: #ffffff;}
+.logobot img {float: left; margin-right: 23px;}
+.textbot {float: left; color: #ffffff; width: 400px;}
+.soc3 {width: 31px; height: 30px; display: inline-block; margin-right: 2px; margin-top: 15px;}
+.soc3:hover {background-position: 0 -30px !important}
+.contbot {float: right; width: 340px; height: 150px; color: #ffffff;}
+.contbot img {float: left; margin-right: 15px;}
+.adressbot {margin-top: 7px;}
+.phonebot {color: #ff8aa3; font-weight: 700; font-size: 28px; margin-top: 23px}
+
+.botmenu {width: 1058px; height: 128px; margin: auto; display: block;}
+.botmenu ul {text-align: center;}
+.botmenu li {display: inline-block; margin-right: 40px; font-weight: 500; font-size: 16px}
+.botmenu a {text-decoration: none; color: #ff8aa3}
+.botmenu a:hover {text-decoration: none; color: #d65479}
+
+
+/* формы */
+.box-modal {position: relative; width: 440px; min-height: 200px; padding: 40px 280px 50px 40px; background: url('img/bgmodal.jpg') #ffffff no-repeat top right; color: #3c3c3c; border-radius: 10px;}
+.modaltext {margin-left: 10px; font-size: 14px; height: auto;}
+.modaltext b {color: #000000; font-size: 16px; line-height: 130%; display: inline-block; margin-bottom: 5px;}
+.modaltext2 {margin-left: 10px; font-size: 14px; height: 260px;}
+.modaltext2 b {color: #000000; font-size: 16px; line-height: 130%; display: inline-block; margin-bottom: 5px;}
+.spisok {font-size: 14px; margin-bottom: 15px; margin-top: 8px;}
+.spisok li {background: url('img/n2.png') no-repeat; list-style-type: none; font-size: 14px; line-height: 140%; margin-bottom: 8px; margin-top: 4px; padding-left: 20px;}
+
+
+.form2 {display: inline-block; border-radius: 15px}
+.form2 label {display: block; margin-bottom: 10px; font-weight: 500}
+.form2 p {margin-bottom: 5px;}

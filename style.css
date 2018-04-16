@@ -1,0 +1,186 @@
+/* main */
+a, a:visited {text-decoration: underline; color: #357daf; -moz-transition: color 0.3s 0.03s ease; -o-transition: color 0.3s 0.03s ease; -webkit-transition: color 0.3s 0.03s ease; }
+a:hover,  a:visited:hover, a:focus {text-decoration: none; color: #d65479;}
+
+.cl {clear:both}
+
+
+.mr {margin-right: 0 !important}
+/* main */
+html {min-width: 1200px}
+body {background: url('img/bg.jpg') no-repeat top center #ffffff; min-width: 1200px; -webkit-text-size-adjust: 100%;}
+html, body, div, table, tr, td, li, ul {margin: 0; padding: 0; border: 0; font: inherit; color: #333333; font-size: 16px; font-weight: 400; font-family: 'Fira Sans', sans-serif; vertical-align: top; line-height: 150%}
+img {border: 0}
+h1{font-family: 'Akrobat-Bold'; font-size: 42px; color: #ffffff; text-transform: uppercase; font-weight: normal; margin: 0 auto; margin-bottom: 20px; text-align: center; max-width: 720px; line-height: 100%; display: block;}
+h2{font-family: 'Akrobat-Bold'; font-size: 42px; margin: 0; text-transform: uppercase; color: #000000; font-weight: normal; margin-bottom: 14px; padding-top: 3px; }
+h3{font-family: 'Fira Sans', sans-serif; color: #ffffff; font-size: 16px; font-weight: 300; margin: 0; line-height: 110%; display: block; text-shadow: 1px 1px 1px black}
+h4{text-align: center; font-family: 'Akrobat-Bold'; font-size: 28px; color: #000000; margin-bottom: 34px; margin-top: 50px; font-weight: normal;}
+h5{font-family: 'Akrobat-Bold'; color: #000000; font-size: 24px; font-weight: normal; margin: 0px 0 0px 0; padding-left: 67px; background: url('img/q.png') no-repeat; padding-top: 10px; padding-bottom: 16px; line-height: 110%; display: block;}
+h6{font-family: 'Fira Sans', sans-serif; color: #ffffff; font-size: 17px; font-weight: 400; margin: 0; line-height: 120%; display: block; text-shadow: 1px 1px 1px #333333}
+.wrap {width: 100%; min-width: 1100px; height: auto; position: relative}
+.wr {max-width: 1100px; padding-left: 50px; padding-right: 50px; margin: auto; position: relative}
+
+strong {color: #000000; font-weight: 600}
+
+/* h */
+.zag {background: url('img/h.png') no-repeat top left; padding-left: 60px; min-height: 64px; color: #444444; font-weight: 300}
+.zag p {font-family: 'Akrobat-Bold'; font-size: 42px; text-transform: uppercase; color: #000000; margin-bottom: 16px; padding-top: 3px;}
+.zag span {margin-left: 3px; color: #666666}
+.zag h2 {font-family: 'Akrobat-Bold'; font-size: 42px; text-transform: uppercase; color: #000000; margin-bottom: 16px; padding-top: 3px;}
+
+.zag3 {background: url('img/h.png') no-repeat top left; padding-left: 60px; min-height: 64px; color: #ffffff; font-weight: 300;}
+.zag3 h2 {font-family: 'Akrobat-Bold'; font-size: 42px; text-transform: uppercase; color: #ffffff; margin-bottom: 18px; padding-top: 3px; }
+.zag3 span {margin-left: 2px;}
+
+.zagh {font-size: 36px; text-transform: uppercase; margin-top: 100px; margin-bottom: 70px;}
+
+/* header */
+.header {padding-top: 36px; padding-bottom: 30px;}
+.logo {width: 150px;  float: left;}
+.topcenter {float: left; margin-left: 200px; width: 350px; font-size: 14px; color: #666666; text-align: center}
+.btnzamer {background: url('img/btn-zamer.png') no-repeat; width: 234px; height: 42px; cursor: pointer; margin: auto; margin-top: 8px; border: 0}
+.btnzamer:hover {background-position: 0px -42px;}
+
+.phone {float: right; width: 280px; font-size: 14px; color: #666666; text-align: right; margin-top: 15px; position: relative;} 
+.phone span {font-family: 'Akrobat-ExtraBold'; font-size: 30px; color: #000000; display: inline-block; margin-bottom: 12px;}
+.phonebtn{width: 82px; height: 32px; background:#ffcc00; position: absolute; right: 2px; top: -5px; border-radius: 5px; text-align: center; cursor: pointer}
+.phonebtn p {font-size: 12px; font-family: 'Akrobat-ExtraBold'; text-transform: uppercase; line-height: 100%; margin-top: 4px;}
+
+.phonebtn2{width: 82px; height: 32px; background:#ffcc00; position: absolute; right: 1px; top: -3px; border-radius: 5px; text-align: center; cursor: pointer}
+.phonebtn2 p {font-size: 12px; font-family: 'Akrobat-ExtraBold'; text-transform: uppercase; line-height: 100%; margin-top: 4px;}
+/* topmenu */
+.topmenuwrap {width: 100%; min-width: 1100px; height: auto; position: relative; background: #ffffff; border-top: 1px solid #eeeeee; border-bottom: 1px solid #eeeeee}
+.topmenuwrap2 {display: none; position: fixed; height: 45px; top: 0; width: 100%; z-index: 1000; background: #ffffff; box-shadow: 0 0 10px rgba(0,0,0,0.8);}
+.topmenu {width: 100%; margin: auto; display: block; }
+.topmenu ul {padding-top: 15px; padding-bottom: 14px; text-align: center;}
+.topmenu li {display: inline-block; margin-right: 30px; font-weight: 500; font-size: 16px; font-family: 'Akrobat-Bold'; text-transform: uppercase;}
+.topmenu a {text-decoration: none; color: #357daf}
+.topmenu a:hover {text-decoration: none; color: #d65479}
+
+.topmenu2 {width: 1100px; margin: auto; display: block; }
+.topmenu2 ul {display: inline-block; padding-top: 12px; padding-bottom: 14px; margin-left: 10px; text-align: left;}
+.topmenu2 li {display: inline-block; margin-right: 20px; font-weight: 500; font-size: 14px; font-family: 'Akrobat-Bold'; text-transform: uppercase;}
+.topmenu2 a {text-decoration: none; color: #357daf}
+.topmenu2 a:hover {text-decoration: none; color: #d65479}
+.topphone {float: right; margin-top: 12px; margin-right: 20px; font-size: 14px;}
+.topphone span {font-family: 'Akrobat-ExtraBold'; font-size: 20px; color: #000000;}
+/* экран */
+.ekran {background: url('img/background.jpg') no-repeat top center; height: auto; padding-bottom: 70px;}
+.zagolovki {padding-top: 100px; }
+.zagolovki p {color: #ffffff; font-weight: 300; text-align: center; margin-top: 5px; margin-bottom: 0; font-size: 20px;}
+.plusi {margin: auto; text-align: center; margin-top: 70px; width: 800px; }
+.plus {display: inline-block; width: 43%; margin-left: 5%; margin-right: 0%; text-align: left; margin-bottom: 40px;}
+.plus img {float: left;}
+.plus p {margin: 10px 0 0 80px; color: #ffffff; font-size: 16px; line-height: 140%; font-weight: 300}
+
+.cena {margin: auto; background: url('img/cena.png') no-repeat; margin-top: 20px; margin-bottom: 10px; width: 247px; height: 124px; color: #000000; text-align: center; font-size: 18px;}
+.cena p {font-family: 'Akrobat-ExtraBold'; font-size: 30px; color: #000000; margin: 0 0 5px 0; padding-top: 33px;}
+.cena span {font-size: 72px}
+.cenaopis {color: #ffffff; text-align: center; line-height: 120%; margin-bottom: 80px;}
+/* примеры */
+.prim {padding-top: 80px;}
+.primeri {margin-top: 70px; margin-left: 10px; margin-right: 40px;}
+.primer {color: #ffffff; position: relative;}
+.primer h3 {position: absolute; z-index: 100; bottom: 70px; left: 30px;}
+.price {margin: 0; position: absolute; z-index: 101; bottom: 40px; left: 30px; font-size: 30px; color: #ffc728; font-family: 'Akrobat-Bold'; text-shadow: 1px 1px 1px black}
+.opis {margin: 0; position: absolute; z-index: 100; right: 30px; top: 30px; text-align: right; text-shadow: 1px 1px 1px black; color: #ffffff; font-size: 16px; line-height: 120%;}
+
+/* отзывы */
+.video {width: 33%; display: inline-block; margin-bottom: 8px;}
+.fc {text-align: center;}
+.fr {text-align: right}
+.line {width: 100%; height: auto;}
+.line img {width: 1050px; height:auto; margin: 0 0 100px 10px; padding: 0; display: block;}
+/* типы */
+.types {padding-top: 90px; padding-bottom: 30px; background: url('img/bgtype.png') #f1f1f1 repeat-x;}
+.tabsx {margin-bottom: 50px; margin-top: 80px;}
+.tabs__caption2 {background: #eeeeee; border-radius: 10px; display: inline-block;}
+.tabs__caption2 li {font-family: 'Akrobat-Bold'; font-size: 22px; cursor: pointer; color: #000000; font-weight: normal; border-radius: 10px; padding: 10px 26px 12px 26px; list-style-type: none; display: inline-block; margin-right: 0px;}
+.tabs__caption2 li.active {list-style-type: none; color: #000000; display: inline-block; background: url('img/ybg.png') repeat-x #fdbc27; }
+
+.tabs__content2 {left: 0; right: 0 ; font-size: 16x; color: #777777; display: none; line-height: 130%;}
+.tabs__content2.active {display: block;}
+.potolkiphoto {text-align: left; margin-top: 40px;}
+.potolkiphoto img {display: inline-block; width: 23%; margin-left: 0%; margin-right: 1%; border-radius: 10px; border-bottom: 4px solid #000000; border-top: 4px solid #000000}
+.potolkiphoto img:hover {    -webkit-transform: scale(1.02,1.02);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 150ms;
+    -moz-transform: scale(1.02,1.02);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 150ms;}
+.tabs__content2 p {margin-left: 5px; font-weight: 300; color: #555555; margin-bottom: 10px; font-size: 16px; line-height: 140%; max-width: 1050px;}
+
+/* калькулятор */
+.calc {background: url('img/bgc.png') repeat-x; height: 420px; padding-top: 90px;}
+.calculator {padding-top: 60px;}
+.calcleft {float: left; margin-left: 62px; width: 400px;}
+.calcleft label {display: block; margin-bottom: 10px; color: #ffffff; }
+.calcleft label p {float: left; font-weight: 300; }
+.inpt {float: right; width: 30px; padding: 10px 15px 10px 15px; border-radius: 5px; border: 3px solid #6a6a72; font-size: 16px; text-align: right; font-family: 'Akrobat-Bold'; font-size: 18px;}
+.slct {float: right; width: 190px; padding: 10px 15px 10px 15px; border-radius: 5px; border: 3px solid #6a6a72; font-size: 16px; text-align: right; font-family: 'Akrobat-Bold'; font-size: 18px;}
+.calcright {float: right; text-align: right;}
+.zagx {color: #ffffff; font-family: 'Akrobat-Bold'; font-size: 42px; text-transform: uppercase; margin-top: 0; margin-bottom: 30px;}
+.calcprice {font-size: 30px; color: #ffffff; font-family: 'Akrobat-Bold'; text-transform: uppercase; margin-top: 15px;}
+.calcprice span {font-size: 42px; color: #ffc000; font-family: 'Akrobat-Bold';}
+
+.btnzamer2 {background: url('img/btn-zamer.png') no-repeat; width: 234px; height: 42px; cursor: pointer; margin-top: 28px; border: 0; display: inline-block;}
+.btnzamer2:hover {background-position: 0px -42px;}
+
+/* вопросы */
+.vopros {padding-top: 90px; padding-bottom: 100px; background: url('img/bgtype.png') #f1f1f1 repeat-x;}
+.qaa {margin-top: 60px; display: inline-block; width: 44%; margin-left: 2%; margin-right: 2%; text-align: left;}
+.answer {color: #666666; font-size: 14px; font-weight: 300; padding-left: 67px;}
+
+/* форма */
+.formabot {height: auto; padding-bottom: 50px; padding-top: 100px; color: #000000;}
+.modaltext {font-size: 16px; color: #000000; margin: auto; width: 280px; margin-top: 30px;}
+.botleftform {margin-left: 20px; width: 400px; float: left; background: url('img/x.jpg'); padding: 40px 34px 34px 44px; height: 471px;}
+.zagh3 {font-family: 'Akrobat-ExtraBold'; color: #ffffff; font-size: 30px; text-transform: uppercase; margin-top: 0px; margin-bottom: 10px;}
+.formx2 {font-size: 14px; color: #dddddd; line-height: 140%; margin-top: 10px; margin-bottom: 20px;}
+
+.plusi2 {margin-top: 30px;}
+.plus2 {display: inline-block; width: 45%; margin-left: 2%; text-align: left; margin-top: 30px;}
+.plus2 img {float: left; width: 28px; height: 28px;}
+.plus2 p {margin: 0px 0 0 40px; color: #ffffff; font-size: 14px; line-height: 140%; font-weight: 300}
+
+.akc {float: right; width: 586px;}
+.akciya {padding: 34px 34px 34px 40px; margin-bottom: 20px; }
+.akciya span { font-size: 24px; font-family: 'Akrobat-ExtraBold'; text-transform: uppercase; color: #ffcc00; display: block; margin-bottom: 10px; text-shadow: 1px 1px 1px #333333}
+.akciya p {font-size: 14px; color: #bbbbbb; text-shadow: 1px 1px 1px #000000; margin-top: 20px; margin-bottom: 0; line-height: 130%;}
+.zagakc {font-family: 'Akrobat-ExtraBold'; font-size: 36px; text-transform: uppercase; margin-top: 0px; margin-bottom: 60px; color: #000000; text-align: center}
+
+
+
+/* контакты */
+.contacts {padding-top: 50px; padding-bottom: 100px; background: url('img/botbg.png') bottom center repeat-x #ffffff;}
+.map {float: left; width: 720px; height: 400px; margin-left: 20px;}
+.botcont {float: right; width: 300px; font-size: 14px; padding-top: 20px;}
+.botphone {font-family: 'Akrobat-ExtraBold'; font-size: 30px; color: #000000; display: inline-block; margin-bottom: 0px; margin-top: 30px; line-height: 80%; position: relative}
+.botphone img {margin-right: 14px; vertical-align: middle; display: block; float: left;}
+.tel {display: inline-block; margin-top: 0}
+.wtime {font-size: 14px; color: #666666; margin-top: 0; margin-left: 44px;}
+.metka {margin-right: 14px; vertical-align: middle; display: block; float: left;}
+.adr {margin-top: 14px; padding-top: 4px;}
+
+.copy {background: url('img/footer.png') repeat-x; text-align: center; font-size: 14px; padding-top: 40px; padding-bottom: 20px;}
+.copy .wr {font-size: 14px;  font-weight: 300; color: #dddddd}
+.copy a {color: #ffcc00 !important}
+.copy p {margin-top: 0px; ; color: #dddddd}
+/* формы */
+.inptx {width: 198px; padding: 10px 15px 10px 15px; border-radius: 20px; border: 2px solid #dddddd; font-size: 14px; text-align: left; margin-bottom: 0px; font-family: 'Fira Sans', sans-serif; color: #000000; font-size: 14px; font-weight: 400; margin-top: 5px;}
+.box-modal {position: relative; width: 240px; min-height: 200px; padding: 40px 40px 34px 40px; background: #f1f1f1 repeat-x; color: #3c3c3c; border-radius: 20px; text-align: center}
+.zagh2 {font-family: 'Akrobat-ExtraBold'; color: #000000; font-size: 24px; text-transform: uppercase; margin-top: 0px; margin-bottom: 10px;}
+
+
+
+
+
+.modaltext2 {font-size: 16px;}
+.spisok {font-size: 14px; margin-bottom: 15px; margin-top: 8px;}
+.spisok li {background: url('img/n2.png') no-repeat; list-style-type: none; font-size: 14px; line-height: 140%; margin-bottom: 8px; margin-top: 4px; padding-left: 20px;}
+
+
+.form2 {display: inline-block; border-radius: 15px}
+.form2 label {display: block; margin-bottom: 4px; font-weight: 400; color: #000000; font-size: 14px; font-family: 'Akrobat-Bold'; font-size: 18px; }
+.form2 p {margin-bottom: 8px; margin-top: 0}
+.formx {font-size: 14px; color: #666666; line-height: 140%; margin-top: 10px; margin-bottom: 20px;}

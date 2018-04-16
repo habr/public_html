@@ -1,0 +1,47 @@
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP:X-HTTPS} 1 [NC]
+RewriteRule ^(.*)$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://ideal-potolki.com/ [R=301,L]
+
+RewriteEngine On
+RewriteBase /
+# собственно перенаправление
+RewriteCond %{REQUEST_URI} index.s?html$
+RewriteRule ^(.*/)index.s?html $1 [R=301,L] 
+
+AddDefaultCharset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml
+
+<FilesMatch ".(css)$">
+    Header append Cache-Control "no-store, no-cache, must-revalidate"
+</FilesMatch>
+
+
+<ifModule mod_headers.c>
+    # Все html и htm файлы будут храниться в кэше браузера один день
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "max-age=43200"
+    </FilesMatch>
+    # Все css, javascript и текстовые файлы будут храниться в кэше браузера одну неделю
+    <FilesMatch "\.(js|css|txt)$">
+        Header set Cache-Control "max-age=43200"
+    </FilesMatch>
+    # Все флэш файлы и изображения будут храниться в кэше браузера один месяц
+    <FilesMatch "\.(flv|swf|ico|gif|jpg|jpeg|png)$">
+        Header set Cache-Control "max-age=2592000"
+    </FilesMatch>
+    # Отключаем кеширование php и других служебных файлов
+    <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+        Header unset Cache-Control
+    </FilesMatch>
+</IfModule>
+
+ErrorDocument 404 http://ideal-potolki.com/404.php
